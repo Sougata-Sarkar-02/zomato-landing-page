@@ -1,0 +1,77 @@
+/* Header */
+
+header {
+    /* transform: scale(0.9); */
+    /* transform: scaleY(1.5); */
+    margin-bottom: 1rem;
+    height: fit-content;
+}
+
+.nav {
+    font-size: 1rem;
+}
+
+.nav-bar {
+    gap: 1rem;
+}
+
+.head {
+    transform: scale(0.7);
+    margin-top: 0;
+}
+
+.logo {
+    width: 25vw;
+    margin: auto;
+}
+
+.head h3 {
+    font-size: 1.2rem;
+}
+
+.search {
+    width: 60vw;
+}
+
+.search .search-item:first-child {
+    width: 45%;
+}
+
+.search .search-item:last-child {
+    width: 55%;
+}
+
+/* Section - 1  */
+.section-1 .section-1-item {
+    /* height: 10rem; */
+    width: 25%;
+}
+
+.section-1 .section-1-item .items-details {
+    height: 40%;
+    font-size: 0.6rem;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Section -2  */
+.section-2-heading {
+    padding-left: 3rem;
+}
+
+/* Section - 3 */
+.section-3-container {
+    flex-wrap: wrap;
+}
+
+.section-3-img img {
+    width: 100%;
+}
+
+.section-3-content {
+    align-items: center;
+}
+
+.section-3-download {
+    width: 80%;
+    text-align: center;
+}

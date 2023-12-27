@@ -1,0 +1,153 @@
+header {
+    height: fit-content;
+    margin-bottom: 1rem;
+}
+
+.nav {
+    flex-direction: row;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.head {
+    margin-top: 3rem;
+}
+
+.logo {
+    width: 40vw;
+}
+
+.head h3 {
+    font-size: 1.1rem;
+    width: 90%;
+    letter-spacing: 1.7px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.search {
+    flex-direction: column;
+    width: 90%;
+    background-color: transparent;
+    gap: 1.2rem;
+    margin-top: 1rem;
+}
+
+.search .search-item {
+    width: 90%;
+    background-color: whitesmoke;
+    gap: 1.2rem;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.search .search-item:first-child {
+    width: auto;
+}
+
+.search .search-item:last-child {
+    width: auto;
+}
+
+.search .search-item p {
+    border: none;
+    color: black;
+}
+
+.search .search-item input {
+    width: 80%;
+    padding: 0%;
+}
+
+
+/* Section - 1 */
+.section-1{
+    justify-content: left;
+}
+.section-1 .section-1-item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 43%;
+    font-size: 0.7rem;
+}
+
+.section-1 .section-1-item .items-details {
+    height: auto;
+    padding: 4px 5px;
+}
+
+/* Section - 2 */
+.section-2-heading {
+    font-size: 1.2rem;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+
+.section-2 .section-2-container .section-2-items {
+    flex-direction: column;
+}
+
+.section-2 .section-2-container .section-2-item {
+    width: 97%;
+}
+
+.section-2-item .item-head {
+    font-size: 1rem;
+    padding-bottom: 0.4rem;
+}
+
+
+/* Section - 3 */
+.section-3-img {
+    display: none;
+}
+
+.section-3-content {
+    width: 100%;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.section-3-subcontent {
+    width: 100%;
+}
+
+.section-3-radio-items {
+    justify-content: center;
+}
+
+.section-3-subcontent input[type='email'] {
+    display: block;
+    margin: 1rem auto;
+    width: max-content;
+}
+
+.section-3-subcontent input[type='button'] {
+    /* width: 18%; */
+    margin-left: 0.8rem;
+}
+
+
+/* Section - 5 */
+.section-5 {
+    margin-top: 2rem;
+}
+
+.section-5-heading {
+    margin: 0;
+    padding: 0px 20px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.section-5-items {
+    padding: 0;
+    width: 100%;
+    align-items: center;
+}
