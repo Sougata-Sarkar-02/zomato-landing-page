@@ -439,12 +439,9 @@ header {
     display: flex;
     justify-content: space-around;
     padding-left: 10rem;
+    margin-top: 1.2rem;
     flex-direction: column;
     background-color: rgba(248, 239, 230, 0.564);
-}
-
-.footer-heading {
-    /* margin: 2rem auto 1.5rem 10rem; */
 }
 
 .footer-heading img {
